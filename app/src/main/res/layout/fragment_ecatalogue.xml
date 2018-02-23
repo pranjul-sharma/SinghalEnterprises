@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        app:fillColor="#EAEAEA"
+        app:pageColor="#EAEAEA"
+        app:radius="5sp"
+        app:slideInterval="3000"
+        app:strokeColor="#4dff0000"
+        app:strokeWidth="1sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_blog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

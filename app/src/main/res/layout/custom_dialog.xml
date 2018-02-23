@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dip"
+    android:background="@drawable/card_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:gravity="center_horizontal"
+            android:padding="4sp"
+            android:shadowColor="@color/colorPrimary"
+            android:text="Contact us"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10sp"
+        android:text=" Call Now"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:gravity="center"
+        android:padding="5sp"
+        android:text="@string/landline_number"
+        android:textColor="@color/dark_background"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10sp"
+        android:text=" Write Message"
+        android:textColor="#ffffff" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:padding="2sp"
+    app:cardElevation="5sp">
+
+    <RelativeLayout
+        android:id="@+id/relative_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2sp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingBottom="10sp">
+
+        <TextView
+
+            android:id="@+id/card_text_1"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:background="@color/colorWhite"
+            android:gravity="end"
+            android:hint="sdjf"
+            android:padding="5sp" />
+
+        <TextView
+            android:id="@+id/card_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_margin="10sp"
+            android:hint="fsaj"
+            android:padding="5sp" />
+
+        <ImageView
+            android:id="@+id/card_img_1"
+            android:layout_width="102sp"
+            android:layout_height="102sp"
+            android:layout_alignLeft="@id/card_text_2"
+            android:layout_below="@+id/card_text_1"
+            android:layout_marginEnd="20sp"
+            android:layout_marginTop="10sp"
+            android:padding="1dp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/card_img_2"
+            android:layout_width="102sp"
+            android:layout_height="102sp"
+            android:layout_alignTop="@+id/card_img_1"
+            android:layout_centerHorizontal="true"
+            android:padding="1dp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/card_img_3"
+            android:layout_width="102sp"
+            android:layout_height="102sp"
+            android:layout_alignRight="@id/card_text_1"
+            android:layout_alignTop="@+id/card_img_1"
+            android:layout_marginStart="20sp"
+            android:padding="1dp"
+            android:scaleType="fitXY" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

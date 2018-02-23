@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.test.singhalenterprises.singhalenterprises.FeedbackActivity"
+    tools:ignore="MissingPrefix">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/feed_tt1"
+        fontPath="fonts/Montserrat-Medium.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="25dp"
+        android:text="@string/name_form"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_name_form"
+        fontPath="fonts/Montserrat-Medium.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/feed_tt2"
+        fontPath="fonts/Montserrat-Medium.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="25dp"
+        android:text="@string/subject_form"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_subject_form"
+        fontPath="fonts/Montserrat-Medium.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/feed_tt3"
+        fontPath="fonts/Montserrat-Medium.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="25dp"
+        android:text="@string/message_form"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_message_form"
+        fontPath="fonts/Montserrat-Medium.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="describe your issue here or write about application"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button_send_form"
+        fontPath="fonts/Montserrat-Medium.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:text="@string/send_form"
+        android:textColor="@color/colorPrimaryDark" />
+
+</LinearLayout>

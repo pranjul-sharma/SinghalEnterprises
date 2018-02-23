@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+
+            />
+
+        <item
+            android:id="@+id/drawer_products"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Products" />
+
+        <item
+            android:id="@+id/drawer_ecatelogue"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="E-Catalogue" />
+        <item
+            android:id="@+id/drawer_blog"
+            android:icon="@drawable/ic_blog"
+            android:title="Blog" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_know_us"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Know Us" />
+        <item
+            android:id="@+id/drawer_share_app"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share this app" />
+        <item
+            android:id="@+id/drawer_feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Send feedback" />
+
+    </group>
+
+</menu>
